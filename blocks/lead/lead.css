@@ -1,4 +1,12 @@
-.lead {
-  display: grid;
-
+@media screen and (min-width: 1280px) {
+  .lead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 984px;
+    max-height: 1005px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
+

@@ -6,28 +6,18 @@
   background-position: center;
   background-size: cover;
   object-fit: cover;
-  display: flex;
-  flex-direction: column;
-  row-gap: 16px;
+
   min-height: calc(100vw/1.6);
-  justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
   .cover {
-    row-gap: 32px;
     height: auto;
   }
 }
 
-/* @media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .cover {
-    margin-top: 102px;
-    margin-left: 48px;
-    margin-right: 48px;
-    max-width: calc(100% - 96px);
-    overflow: hidden;
-    position: relative;
-    background-color: #2A2C2F;
+    min-height: calc((100vw - 96px)/1.6);
   }
-} */
+}

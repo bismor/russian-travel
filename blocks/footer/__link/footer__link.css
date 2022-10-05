@@ -8,14 +8,8 @@
   text-decoration-line: none;
 }
 
-@media screen and (min-width: 1280px) {
-  .footer__link{
-    color: white;
-    width: 106px;
-    height: 18px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
+@media screen and (min-width: 768px) {
+  .footer__link {
     font-size: 16px;
     line-height: 18px;
   }

@@ -9,20 +9,9 @@
   margin: 0;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 768px) {
   .cover__title {
-    position: absolute;
-    top: 166px;
-    left: 312px;
-    width: 95%;
-    font-style: normal;
-    font-weight: 900;
     font-size: 72px;
-    line-height: 78px;
-    text-align: center;
-    margin: 0;
-    max-width: 560px;
-    text-decoration: none;
-    color: white;
+    line-height: 76px;
   }
 }

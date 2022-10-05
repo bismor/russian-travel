@@ -43,7 +43,3 @@
 @import url("../blocks/header/__lang/header__lang_link.css");
 @import url("../blocks/header/_logo/header__logo.css");
 @import url("../Inter-Web/inter.css");
-
-body {
-  font-family: 'Inter', sans-serif;
-}

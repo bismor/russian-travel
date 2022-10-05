@@ -1,11 +1,11 @@
-.place__paragraphs{
+.place__paragraphs {
   display: flex;
-    flex-direction: column;
-    row-gap: 25px;
+  flex-direction: column;
+  row-gap: 25px;
 }
 
 @media screen and (min-width: 1280px) {
-  .place__paragraphs{
+  .place__paragraphs {
     display: flex;
     flex-direction: column;
     row-gap: 26px;

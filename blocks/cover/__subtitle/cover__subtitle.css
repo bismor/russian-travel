@@ -10,7 +10,7 @@
   max-width: 90vw;
 }
 
-@media screen  and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .cover__subtitle {
     max-width: 46.875vw;
     font-size: 18px;
@@ -18,13 +18,13 @@
   }
 }
 
-@media screen  and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .cover__subtitle {
     max-width: 35.15625vw;
   }
 }
 
-@media screen  and (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .cover__subtitle {
     max-width: 28.125vw;
   }

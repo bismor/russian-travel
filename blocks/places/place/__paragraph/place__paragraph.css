@@ -1,0 +1,25 @@
+.place__paragraph {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  color: #FFFFFF;
+  margin: 0 auto;
+  max-width: 90vw;
+}
+
+@media screen and (min-width: 1280px) {
+  .place__paragraph{
+    min-width: 484px;
+    min-height: 145px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    color: white;
+    grid-column: -1/-2;
+    margin: 0;
+  }
+}

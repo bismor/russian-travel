@@ -1,6 +1,18 @@
 .page {
   position: relative;
-  width: 768px;
-  height: 6855px;
-  background: #2A2C2F;
+  max-width: 100vw;
+  background-color: #2A2C2F;
+  row-gap: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .page {
+    row-gap: 88px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .page {
+    row-gap: 92px;
+  }
 }

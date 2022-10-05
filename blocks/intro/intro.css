@@ -1,3 +1,36 @@
 .intro {
-
+  display: flex;
+  flex-direction: column;
+  max-width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+@media screen and (min-width: 768px) {
+  .intro {
+    max-width: 93.75vw;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro {
+    max-width: 67.383vw;
+    margin-left: 4.6875vw;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro {
+    max-width: 53.90625vw;
+    margin-left: 11.5625vw;
+  }
+}
+
+/* @media screen and (min-width: 1280px) {
+  .intro {
+    min-width: 690px;
+    min-height: 429px;
+    margin-left: 148px;
+    margin-right: 442px;
+  }
+} */

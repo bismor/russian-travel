@@ -1,3 +1,20 @@
 .footer {
+  background-color: #2A2C2F;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5.625vw;
+  padding-top: 64px;
+  padding-bottom: 24px;
+  row-gap: 48px;
+}
 
+@media screen and (min-width: 1280px) {
+ .footer {
+    background-color: #2A2C2F;
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 96px);
+    min-height: 18px;
+    margin: 92px 48px 24px;
+  }
 }

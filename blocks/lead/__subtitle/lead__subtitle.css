@@ -23,7 +23,7 @@
   }
 }
 
-@media screen and (min-with: 1024px) {
+@media screen and (min-with: 1280px) {
   .lead__subtitle {
     max-width: 50vw;
   }

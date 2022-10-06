@@ -17,13 +17,13 @@
   }
 }
 
-@media screen and (min-with: 1024px) {
+@media screen and (min-width: 1024px) {
   .lead__subtitle {
     max-width: 62.5vw;
   }
 }
 
-@media screen and (min-with: 1280px) {
+@media screen and (min-width: 1280px) {
   .lead__subtitle {
     max-width: 50vw;
   }

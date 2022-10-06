@@ -14,18 +14,18 @@
 
 @media screen and (min-width: 768px) {
   .lead__caption {
-    padding-left: 6.25vw;
+    padding-left: 3.125vw;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .lead__caption {
-    padding-left: 14.453vw;
+    padding-left: 4.6875vw;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .lead__caption {
-    padding-left: 11.56vw;
+    padding-left: 0
   }
 }

@@ -15,6 +15,7 @@
     max-width: 46.875vw;
     font-size: 18px;
     line-height: 22px;
+    margin: 0;
   }
 }
 
@@ -26,6 +27,7 @@
 
 @media screen and (min-width: 1280px) {
   .cover__subtitle {
-    max-width: 28.125vw;
+    max-width: 360px;
+    width: 360px;
   }
 }

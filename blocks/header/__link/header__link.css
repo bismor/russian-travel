@@ -17,3 +17,7 @@
     line-height: 28px;
   }
 }
+
+.header__link:hover {
+  opacity: 0.8;
+}

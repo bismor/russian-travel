@@ -6,19 +6,8 @@
 
 @media screen and (min-width: 768px) {
   .footer__links {
-    display: flex;
     flex-direction: row;
     gap: 18px;
   }
 }
 
-@media screen and (min-width: 1280px) {
-  .footer__links {
-    display: flex;
-    gap: 18px;
-  }
-}
-
-.footer__links:hover {
-  opacity: 0.8;
-}

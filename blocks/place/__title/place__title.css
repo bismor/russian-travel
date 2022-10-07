@@ -23,14 +23,3 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
-  .place__title {
-    color: #FFFFFF;
-    font-family: "Inter", "Arial", sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 76px;
-    margin: 0;
-  }
-}

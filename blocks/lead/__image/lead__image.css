@@ -1,7 +1,6 @@
 .lead__image {
   max-width: 100vw;
   height: auto;
-  background-image: url("/russian-travel/sprint-3-images/lead-polka.jpg");
 }
 
 @media screen and (min-width: 1024px) {
